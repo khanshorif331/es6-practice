@@ -29,6 +29,7 @@ console.log(name,hobby);
 // regular ways 
 const numbers = [4,6,8,10];
 
+// regular way
 /* const output = []
 for (const number of numbers){
     const result = number*2;
@@ -36,5 +37,8 @@ for (const number of numbers){
 }
 // console.log(output);
  */
+
+
+// single line code magic with array map
 const square = numbers.map(x=>x*3);
 console.log(square);
