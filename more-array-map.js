@@ -37,7 +37,7 @@ console.log(bigNumbers);
 
 
 
-class Support{
+/* c lass Support{
     name ;
     designation = 'Support Web Instructor'
     address = 'BD'
@@ -51,4 +51,23 @@ class Support{
 }
 const aamir = new Support('Aamir Khan');
 const salman = new Support('Solaiman Khan')
-console.log(aamir,salman);
+console.log(aamir,salman); */
+
+class Support{
+    name;
+    address = 'Bangladesh'
+    designation = 'Support Web Dev'
+    age;
+    constructor(name,age){
+        this.name = name
+        this.age = age
+    }
+    meetSupprt(){
+        console.log('Hey whats up??');
+    }
+}
+const aamir = new Support('Aamir Khan',42);
+const shah = new Support('Shah Alam',35)
+const salman = new Support('Salman Khan',53)
+
+console.log(aamir,shah,salman);
